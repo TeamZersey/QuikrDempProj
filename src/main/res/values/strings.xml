@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">FirebaseAuthGoogle</string>
+    <string name="congrats_text">Congratulation!! you have successfully  authenticated using google signin
+    and Firebase</string>
+    <string name="add_button">ADD</string>
+    <string name="sign_out_button">SIGN OUT</string>
+    <string-array name="category">
+        <item>Mobiles</item>
+        <item>Electronics</item>
+        <!--<item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>-->
+    </string-array>
+</resources>
