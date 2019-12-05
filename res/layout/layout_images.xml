@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="100dp">
+
+            <TextView
+                android:id="@+id/tvtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Title"
+                android:textColor="@color/colorPrimary"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/tvtitleval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_toRightOf="@+id/tvPhotoName"
+                android:textColor="@color/colorPrimary"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/tvdesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Description"
+                android:layout_below="@id/tvtitleval"
+                android:textColor="@color/colorPrimary"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/tvdescval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:layout_below="@id/tvtitleval"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_toRightOf="@+id/tvPhotoName"
+                android:textColor="@color/colorPrimary"
+                android:textAlignment="center" />
+
+
+            <TextView
+                android:id="@+id/tvcatgry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Category"
+                android:layout_below="@id/tvdescval"
+                android:textColor="@color/colorPrimary"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/tvcatgryval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:layout_below="@id/tvdescval"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_toRightOf="@+id/tvPhotoName"
+                android:textColor="@color/colorPrimary"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/tvPhotoName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Photo Name"
+                android:layout_below="@id/tvcatgryval"
+                android:textColor="@color/colorPrimary"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textViewName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:layout_below="@id/tvcatgryval"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_toRightOf="@+id/tvPhotoName"
+                android:textColor="@color/colorPrimary"
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_below="@id/textViewName" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
